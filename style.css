@@ -1,2 +1,94 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+.card-container {
+    width: 300px;
+    border-radius: 5px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    margin: 10% auto;
+}
+
+.main-img {
+    width: auto;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+.description h3 {
+    padding: 7px 0;
+}
+.description p {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    padding: 0 0 15px 0;
+}
+.eth-icon {
+    width: 8px;
+
+}
+.sec1, .sec2{
+    display: flex;
+    align-content: center;
+}
+.info h4 {
+    padding: 0 5px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+.info h5 {
+    padding: 0 5px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.sec2-icon {
+    width: 15px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+hr {
+    text-align: center;
+    border-top: 1px solid hsl(215, 51%, 60%);
+    opacity: .5;
+}
+
+.author-profile {
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 2px;
+    margin: 10px 0 5px 0;
+    width: 40px;
+    display: flex;
+    
+}
+.author-profile img {
+    width: 100%;
+}
+.author p {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    padding-left: 10px;
+    
+}
+.author strong {
+    color: white;
+}
+.author {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 2px 0;
+}
