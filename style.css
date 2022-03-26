@@ -12,10 +12,11 @@ body {
 }
 .card-container {
     width: 300px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: hsl(216, 50%, 16%);
     padding: 15px;
     margin: 10% auto;
+    box-shadow: 0 0 50px black
 }
 
 .main-img {
@@ -23,7 +24,7 @@ body {
 }
 img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .description h3 {
     padding: 7px 0;
